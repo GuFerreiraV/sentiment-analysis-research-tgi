@@ -1,6 +1,9 @@
 # Sentiment Analysis Multimodal
 ## Funcionalidades Principais
 
+[Artigo Completo](https://docs.google.com/document/d/e/2PACX-1vSUiNpLhhGFP_jYK83_WV7NvOeWNJpGcHZ2p4p839Poj9KDCOiBN762E79RWyoWKw/pub?embedded=true)
+
+
 -   **Detecção de Objetos com YOLOv8:** Identificação e classificação de objetos em tempo real, com estratégia de redução dinâmica de confiança para otimizar detecções.
 -   **Análise Facial e Emocional com DeepFace:** Detecção de faces e inferência de emoções predominantes, utilizando `retinaface` como backend e calculando o 'clima' emocional de grupos.
 -   **Modelo de Linguagem Local (LLM):** Integração com o Gemma2:2b, executado localmente via Ollama, para fusão semântica de dados visuais e textuais.
